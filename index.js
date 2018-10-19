@@ -19,9 +19,9 @@ class BasicSchema {
   }
 
   // Sets the 'value' field of all field objects to 'null'
-  reset () {
+  set reset (emptyValue) {
     for (var field in this.state) {
-      this.state[field].value = null
+      this.state[field].value = emptyValue
     }
   }
 
