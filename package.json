@@ -4,7 +4,6 @@
   "description": "Simple module for creating basic JS object schemas.",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "dependencies": {},
   "scripts": {
     "dev": "nodemon --exec babel-node index"
