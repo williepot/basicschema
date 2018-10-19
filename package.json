@@ -1,7 +1,7 @@
 {
-  "name": "es6",
+  "name": "basicschema",
   "version": "1.0.0",
-  "description": "Try es6 in node",
+  "description": "Simple module for creating basic JS object schemas.",
   "main": "index.js",
   "license": "MIT",
   "private": true,
@@ -9,6 +9,12 @@
   "scripts": {
     "dev": "nodemon --exec babel-node index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williepot/basicschema.git"
+  },
+  "author": "Willie Potgieter",
+  "homepage": "https://williepot.github.io",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
